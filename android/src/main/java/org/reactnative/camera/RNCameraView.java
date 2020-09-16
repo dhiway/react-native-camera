@@ -46,7 +46,7 @@ public class RNCameraView extends CameraView implements LifecycleEventListener, 
   private Map<Promise, File> mPictureTakenDirectories = new ConcurrentHashMap<>();
   private Promise mVideoRecordedPromise;
   private List<String> mBarCodeTypes = null;
-  private boolean mDetectedImageInEvent = false;
+  private boolean mDetectedImageInEvent = true;
 
   private ScaleGestureDetector mScaleGestureDetector;
   private GestureDetector mGestureDetector;

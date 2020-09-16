@@ -273,6 +273,9 @@
         case MLKBarcodeValueTypeText:
             barcodeType = @"TEXT";
             break;
+        case MLKBarcodeValueTypeURL:
+            barcodeType = @"URL";
+            break;
         case MLKBarcodeValueTypeISBN:
             barcodeType = @"ISBN";
             break;
